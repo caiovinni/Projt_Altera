@@ -1,0 +1,77 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #e6eff5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.top-15 {
+    margin-top: 15px;
+}
+
+.form-group {
+    display: grid;
+}
+
+#formularioLogin {
+    background-color: white;
+    border: solid 2px #006298;
+    border-radius: 20px;
+    width: 350px;
+    height: 420px;
+    margin-top: 15%;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#bg-azul {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+#campoSenha {
+    margin-top: 10px;
+}
+
+#btnAcessar {
+    background-color: white;
+    color: gray;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+#avisoPreenchimento1 {
+    visibility: hidden;
+    color: red;
+}
+
+#avisoPreenchimento2 {
+    visibility: hidden;
+    color: red;
+}
