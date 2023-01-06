@@ -1,0 +1,63 @@
+@import url(StyleGlobal.css);
+
+/* HomePage-Altera */
+
+.mainImage {
+    border-radius: 10%;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+.dropdown-menu {
+    border-color: #006298;
+}
+
+.dropdown-item {
+    color: #006298;
+}
+
+.dropdown-item:hover {
+    color: #006298;
+}
+
+@media only screen and (max-width:993px) {
+    .displayDesktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:993px) {
+    .displayMobile {
+        display: none;
+    }
+}
+
+/* Fim HomePage-Altera */
+
+
+/* Page Sobre-Altera */
+
+.borderradius {
+    border-top-right-radius: 10% ;
+    border-bottom-right-radius: 10% ;
+}
+
+/* Fim Page Sobre-Altera */
+
+/* Page Login-Altera */
+
+.btnAcessar {
+    border-color: #006298;
+}
+
+.btnAcessar:hover {
+    background-color: #e6eff5;
+    color: #006298;
+}
+
+.containerCenter {
+    display:inline-table;
+    justify-items: center;
+}

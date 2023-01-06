@@ -1,0 +1,92 @@
+/* Barra de navegação */
+.navBar {
+    border-bottom: solid 0.00001rem black;
+}
+
+.escritaLogo {
+    font-size: 1.7rem;
+    margin-right: 2rem;
+    font-family: 'Lato', cursive;
+}
+
+.linkNavBar {
+    font-size: 1.4rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.barraPesquisa {
+    margin-left: 3rem;
+    width: 100%;
+}
+
+.btnProcurar {
+    border-color: #006298;
+}
+
+.btnProcurar:hover {background-color: #006298; }
+
+.btnNavBar{
+    border-color: #006298;
+}
+
+.btnNavBar:hover {
+    background-color: #e6eff5;
+    color: #006298;
+}
+
+@media only screen and (max-width:993px) {
+    .barraPesquisa {
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Fim Barra de navegação */
+
+/* Colors */
+
+body{
+    background-color: #e6eff5;
+}
+
+.colore6eff5 {
+    color: #e6eff5;
+}
+
+.backColore6eff5 {
+    background-color: #e6eff5;
+}
+
+.color006298 {
+    color: #006298;
+}
+
+.backColor006298 {
+    background-color: #006298;
+}
+
+.color68a2c2 {
+    color: #68a2c2;
+}
+
+.backColor68a2c2 {
+    background-color: #68a2c2;
+}
+
+.colorAccordion {
+    background-color: #e6eff5;
+}
+
+.colorWhite {
+    color: #ffffff;
+}
+
+.corBtn {
+    border-color: #006298;
+    background-color: #006298;
+}
+
+.corBtn:hover {
+    background-color: #e6eff5;
+    color: #006298;
+}
